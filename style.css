@@ -1,0 +1,460 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+nav {
+  height: 16vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo a {
+  width: 120px;
+  height: 28px;
+  left: 105px;
+  top: 92px;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.08em;
+
+  color: #000000;
+}
+
+.menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.menu ul li a {
+  width: 67px;
+  height: 28px;
+  left: 877px;
+  top: 85px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.btn a {
+  border: 1px solid #000;
+  padding: 10px 32px;
+  border-radius: 50px;
+  color: #000;
+}
+.content {
+  position: absolute;
+  width: 736px;
+  height: 154px;
+  left: 100px;
+  top: 250px;
+  display: flex;
+  font-family: Lexend Deca;
+}
+.text h1 {
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 42px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+.featured h1 {
+  position: absolute;
+  width: 378px;
+  height: 48px;
+  left: 535px;
+  top: 656px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 28px;
+  /* or 56% */
+
+  color: #000000;
+}
+.box1 {
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  left: 254px;
+  top: 782px;
+}
+.box2 {
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  left: 782px;
+  top: 782px;
+}
+.box3 {
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  left: 254px;
+  top: 1437px;
+}
+.box4 {
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  left: 782px;
+  top: 1437px;
+}
+
+.services h4 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 105px;
+  top: 2110px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.25em;
+
+  color: #000000;
+}
+.text2 h1 {
+  position: absolute;
+  width: 465px;
+  height: 102px;
+  left: 105px;
+  top: 2165px;
+  letter-spacing: 1px;
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 63px;
+  line-height: 28px;
+  display: flex;
+  color: #000000;
+  margin-bottom: 20px;
+  line-height: normal;
+}
+
+.text2 p {
+  position: absolute;
+  width: 477px;
+  height: 52px;
+  left: 105px;
+  top: 2300px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.img1 {
+  position: absolute;
+  top: 2412px;
+  left: 105px;
+}
+.img2 {
+  position: absolute;
+  top: 2412px;
+  left: 391px;
+}
+.img3 {
+  position: absolute;
+  top: 2412px;
+  left: 721px;
+}
+.img4 {
+  position: absolute;
+  top: 2412px;
+  left: 1020px;
+}
+.service1 h3 {
+  position: absolute;
+  left: 106px;
+  top: 2493px;
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.service1 ul {
+  position: absolute;
+  width: 144px;
+  height: 116px;
+  left: 106px;
+  top: 2540px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  list-style-type: none;
+
+  color: #868b8d;
+}
+
+.service2 h3 {
+  position: absolute;
+  width: 158px;
+  height: 31px;
+  left: 391px;
+  top: 2493px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.service2 ul {
+  position: absolute;
+  width: 199px;
+  height: 116px;
+  left: 391px;
+  top: 2540px;
+
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+
+  color: #868b8d;
+  list-style-type: none;
+}
+.service3 h3 {
+  position: absolute;
+  width: 87px;
+  height: 31px;
+  left: 721px;
+  top: 2493px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.service3 ul {
+  position: absolute;
+  width: 114px;
+  height: 116px;
+  left: 721px;
+  top: 2540px;
+
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+
+  color: #868b8d;
+  list-style-type: none;
+}
+
+.service4 h3 {
+  position: absolute;
+  width: 158px;
+  height: 31px;
+  left: 1020px;
+  top: 2493px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.service4 ul {
+  position: absolute;
+  width: 91px;
+  height: 116px;
+  left: 1020px;
+  top: 2540px;
+
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+
+  color: #868b8d;
+  list-style-type: none;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  height: 588px;
+  top: 2757px;
+  background: #000000;
+}
+.content1 h1 {
+  position: absolute;
+  width: 465px;
+  left: 105px;
+  height: 101px;
+  line-height: 3px;
+  top: 100px;
+
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 63px;
+  line-height: 60px;
+  /* or 44% */
+
+  color: #ffffff;
+}
+.info {
+  position: absolute;
+  width: 206px;
+  height: 30px;
+  left: 93px;
+  top: 344px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+
+  color: #ffffff;
+}
+.address {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  left: 105px;
+  top: 382px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #898888;
+}
+.policy {
+  position: absolute;
+  width: 258px;
+  height: 30px;
+  left: 105px;
+  top: 442px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+.linkedin a {
+  position: absolute;
+  width: 94px;
+  height: 30px;
+  left: 808px;
+  top: 344px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+
+  color: #ffffff;
+}
+.twitter a {
+  position: absolute;
+  width: 76px;
+  height: 30px;
+  left: 1017px;
+  top: 344px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+
+  color: #ffffff;
+}
+.behance a {
+  position: absolute;
+  width: 96px;
+  height: 30px;
+  left: 1208px;
+  top: 344px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+
+  color: #ffffff;
+}
+.instagram a {
+  position: absolute;
+  width: 109px;
+  height: 30px;
+  left: 808px;
+  top: 446px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+
+  color: #ffffff;
+}
